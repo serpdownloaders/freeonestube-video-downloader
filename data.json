@@ -1,0 +1,209 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/freeonestube-downloader",
+  "serply_link": "https://serp.ly/freeonestube-downloader",
+  "app_name": "Freeonestube Video Downloader",
+  "short_description": "Download & Save Freeonestube Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Freeonestube Downloader is a browser extension that gives you a simpler workflow for saving videos from freeonestube.com. Instead of digging through page source or using third-party downloader sites, this tool detects playable media directly on the page and presents your download options through an in-player button, popup, or right-click menu.\n\nThe extension scans FreeOnes Tube video pages for direct MP4 URLs and HLS-style stream candidates, filters out ad and preview assets, and lets you save the real video as an MP4 file. You get three free downloads to test the workflow before committing to a paid license.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/freeonestube-downloader-fullscreen-01-ccab21f54e.webp",
+    "https://apps.serp.co/media/optimized-products/freeonestube-downloader-fullscreen-02-33ecaf81de.webp",
+    "https://apps.serp.co/media/optimized-products/freeonestube-downloader-fullscreen-03-15207c2eb4.webp",
+    "https://apps.serp.co/media/optimized-products/freeonestube-downloader-fullscreen-04-35fc638ab8.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a FreeOnes Tube video?",
+      "answer": "Open a supported FreeOnes Tube video page, press play if necessary, then use the player download button, extension popup, or right-click menu to start the download."
+    },
+    {
+      "question": "What formats can the extension detect?",
+      "answer": "The extension is built to find direct MP4 URLs and HLS-style stream candidates when those sources are exposed by the page or player."
+    },
+    {
+      "question": "Will I always see multiple quality options?",
+      "answer": "Not necessarily. Quality choices depend on what the source page reveals. If only one usable media URL is available, only one download option will appear."
+    },
+    {
+      "question": "Do I need to start the video first?",
+      "answer": "Often yes. Some pages only expose the final stream after playback starts or after the player code runs."
+    },
+    {
+      "question": "Does the extension upload my video to a remote server?",
+      "answer": "No. Media detection and download processing happen locally within the extension pipeline. Only authentication and update checks contact external services."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Save FreeOnes Tube videos directly in your browser without external tools",
+    "Detect media from video tags, metadata, scripts, and page resources",
+    "Choose from available quality options when the page exposes them",
+    "Use the in-player button, popup, or context menu to start downloads",
+    "Process streams locally through the extension pipeline",
+    "In-page player download button targeting the FreeOnes Tube video wrapper",
+    "Media detection from video tags, metadata tags, performance entries, and script sources",
+    "Direct MP4 and HLS-style stream candidate handling",
+    "Quality labels when the page reveals resolution information",
+    "Right-click context menu with \"Download FreeOnes Tube Video\" option",
+    "On-page download manager with visible progress feedback",
+    "Organized saving into a FreeOnes Tube download folder",
+    "OTP email activation with 3 free trial downloads"
+  ],
+  "content": {
+    "why": [
+      "FreeOnes Tube video pages often hide the final stream behind player scripts and dynamic content loading. A standard browser right-click save usually misses the actual media URL, and generic downloader sites may pick up ad assets, preview clips, or thumbnail images instead of the real video. Users who want to save videos for offline viewing end up hunting through developer tools or using cumbersome copy-paste workflows.",
+      "Freeonestube Downloader solves this by working directly on the page. It scans for playable media sources, filters out obvious noise like ads and previews, and presents the usable options through a download button that appears near the player. You can also access detected formats through the extension popup or a right-click context menu. The entire process stays in your browser with no need for external downloader sites or terminal commands."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Freeonestube and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Freeonestube Downloader extension from the latest GitHub release.",
+      "Navigate to freeonestube.com and open a video page you want to save.",
+      "Press the play button on the video player to let the stream load.",
+      "Look for the download button that appears near the player wrapper.",
+      "Click the download button to see available media formats.",
+      "Select the quality option you prefer from the detected list.",
+      "Confirm the download and watch the progress panel.",
+      "Save the completed MP4 file to your local device."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS-style stream candidates exposed by the FreeOnes Tube page and player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "FreeOnes Tube viewers who want a browser-native way to save videos for offline playback",
+      "Users who prefer a visible download button over digging through page source or devtools",
+      "People who need a simple workflow without external downloader websites or terminal tools",
+      "Anyone testing the extension with the 3 free downloads before committing to a paid license"
+    ],
+    "use_cases": [
+      "Save a FreeOnes Tube video to watch later without an internet connection",
+      "Grab a direct MP4 copy of a video for personal archiving",
+      "Use the player button instead of hunting through page source or network tabs",
+      "Check the popup for all detected formats before choosing one to download",
+      "Right-click anywhere on the page for quick access to the download menu"
+    ],
+    "troubleshooting": [
+      "No download options appear on the page Refresh the page and make sure the video has started playing. Some streams only become detectable after playback begins.",
+      "The player button does not show up Verify the extension is installed correctly and that you are on a supported FreeOnes Tube video page. Try reloading the page.",
+      "Only one quality option is available The extension can only show formats that the page exposes. Some videos may only have a single usable media source.",
+      "Downloads keep failing or stalling Check your internet connection and try a different video page. If the issue persists, refresh the page and start playback again.",
+      "The extension says I have no free downloads left The 3 free trial downloads are per device. You can purchase a paid license for unlimited downloads through the product page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Freeonestube page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Available quality options depend on what the FreeOnes Tube page exposes during playback",
+      "The extension works on freeonestube.com and supported subdomains"
+    ],
+    "about": [
+      "Freeonestube is a video platform hosting a wide variety of adult content across numerous categories and performers. Freeonestube Downloader helps viewers save videos from the site directly in their browser, providing a simpler alternative to manual page-source hunting or third-party downloader tools."
+    ]
+  },
+  "serpx_link": "https://serpx.link/freeonestube-downloader",
+  "github_topics": [
+    "freeonestube-download",
+    "freeonestube-downloader",
+    "freeonestube-video-downloader",
+    "freeonestube-video-downloader-online",
+    "freeonestube-video-downloader-mac",
+    "freeonestube-video-downloader-window",
+    "freeonestube-video-downloader-free",
+    "freeonestube-video-downloader-extension",
+    "freeonestube-video-downloader-app",
+    "freeonestube-video-downloader-chrome",
+    "freeonestube-video-downloader-from-url",
+    "how-to-download-freeonestube-videos",
+    "how-to-download-freeonestube-videos-mac",
+    "how-to-download-freeonestube-videos-windows",
+    "how-to-download-freeonestube-videos-online",
+    "how-to-download-freeonestube-videos-free",
+    "how-to-download-from-freeonestube",
+    "how-to-download-videos-from-freeonestube",
+    "download-freeonestube-videos",
+    "freeonestube-video-tutorial",
+    "save-freeonestube-videos",
+    "freeonestube-video-content-saver",
+    "how-to-download-freeonestube-videos-for-free"
+  ],
+  "hashtags": [
+    "#FreeonestubeDownload",
+    "#FreeonestubeDownloader",
+    "#FreeonestubeVideoDownloader",
+    "#FreeonestubeVideoDownloaderOnline",
+    "#FreeonestubeVideoDownloaderMac",
+    "#FreeonestubeVideoDownloaderWindow",
+    "#FreeonestubeVideoDownloaderFree",
+    "#FreeonestubeVideoDownloaderExtension",
+    "#FreeonestubeVideoDownloaderApp",
+    "#FreeonestubeVideoDownloaderChrome",
+    "#FreeonestubeVideoDownloaderFromURL",
+    "#HowToDownloadFreeonestubeVideos",
+    "#HowToDownloadFreeonestubeVideosMac",
+    "#HowToDownloadFreeonestubeVideosWindows",
+    "#HowToDownloadFreeonestubeVideosOnline",
+    "#HowToDownloadFreeonestubeVideosFree",
+    "#HowToDownloadFromFreeonestube",
+    "#HowToDownloadVideosFromFreeonestube",
+    "#DownloadFreeonestubeVideos",
+    "#FreeonestubeVideoTutorial",
+    "#SaveFreeonestubeVideos",
+    "#FreeonestubeVideoContentSaver",
+    "#HowToDownloadFreeonestubeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Freeonestube Download",
+    "Freeonestube Downloader",
+    "Freeonestube Video Downloader",
+    "Freeonestube Video Downloader Online",
+    "Freeonestube Video Downloader Mac",
+    "Freeonestube Video Downloader Window",
+    "Freeonestube Video Downloader Free",
+    "Freeonestube Video Downloader Extension",
+    "Freeonestube Video Downloader App",
+    "Freeonestube Video Downloader Chrome",
+    "Freeonestube Video Downloader From URL",
+    "How To Download Freeonestube Videos",
+    "How To Download Freeonestube Videos Mac",
+    "How To Download Freeonestube Videos Windows",
+    "How To Download Freeonestube Videos Online",
+    "How To Download Freeonestube Videos Free",
+    "How To Download From Freeonestube",
+    "How To Download Videos From Freeonestube",
+    "Download Freeonestube Videos",
+    "Freeonestube Video Tutorial",
+    "Save Freeonestube Videos",
+    "Freeonestube Video Content Saver",
+    "How To Download Freeonestube Videos For Free"
+  ]
+}
